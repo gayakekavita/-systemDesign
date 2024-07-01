@@ -1,0 +1,31 @@
+-- optimizing processes and increasing throughput with the same resource is called as "vertical scaling".
+--keep backups and avoid single point of failure .
+-- hiring more resources and increasing throughput is known as "horizontal scaling".
+--micro service architecture.
+
+-- Example 
+  suppose on the computer code is running which is more useful for everyone .
+  so instead of giving computer to everyone we  exposed code on the internet using some protocols.
+  below is the flow :
+  request(input)------> computer(processing)------->response(output) 
+
+  in the form of request we passes input to the computer using some func it proocesees the input and generate output and gives it to  the user in the form of response .
+
+ request--------->API------->Response 
+
+
+**System Design**
+--System design is the process designing the elements of a system such as architecture, modules and components , the different interfaces of those components  and the data that goes through
+  the system.
+
+    Elements of system design:
+        1. architecture
+        2.modules
+        3.components
+        4. different interfaces of that component 
+        5.data that goes through the system.
+
+ -- Basically there are two types of system design::
+    1.LLD (Low Level Design)
+    2.HLD  (High Level Design)
+    
